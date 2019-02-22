@@ -117,3 +117,6 @@ Interface for reserving rooms (if this is included) clear, and easy to use.
 
 ### Amenities Page Mobile
 ![Amenities page of Co-Work Phone](img/amenities.jpg)
+
+### Membership Page Mobile
+![Membership options page of Co-Work Phone](img/membership.jpg)
