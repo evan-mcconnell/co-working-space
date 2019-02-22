@@ -74,4 +74,24 @@ The space is a vibrant and funky co-working space that has been newly remodeled.
 
 *Technical ability:* Beginner to Proficient, best to assume beginner when designing for this group
 
-*Common Devices:* Smartphone likely, especially for checking metrics on-the-go. Computer more likely for updating site. 
+*Common Devices:* Smartphone likely, especially for checking metrics on-the-go. Computer more likely for updating site.
+
+---
+
+## Brainstorm
+
+Site needs to look sophisticated but accessible. Hipster, in cursive. Classy, in fun colors. Site should elicit the smell of coffee.
+
+http://www.theurbanhive.com/ is a *very good* example of this aesthetic. Full-sized image banner of space makes it look large and comfortable. Muted colors in image with white text = luxury. The fonts have been picked carefully. A concluding banner's text "YOU BELONG HERE" is welcoming.
+
+https://www.greenspaces.com/ is a *good* example of using lots of white space. One banner, followed by a "as recommended in" list, followed by pictures and blurbs from the CEOs. Their pictures and burbs make them seem friendly and easily accessible. 3D tour shows full facility. I like this one because they don't seem like the have anything to hide; very un-corporate.
+
+https://cohoots.com/ is a *bad* example of the look Co-Work should have. It's got too many bright colors in hard-edge boxes that the space comes off as corporate and busy. Uninviting. One thing that does work is the use of fun icons and keywords ("boost productivity") for amenities.
+
+Pulling from these and other examples for inspiration, I believe Co-Work's site should use a color scheme of grey + one main color + one complementary color maximum, and white should be prevalent. Font need to be carefully chosen. One sans-serif font for the body text for a clean, hip look and one fancier text for headings for luxury/sophistication.
+
+Images provided should be large, maybe somewhat transparent with lettering on top. Most images contain plants, these should show on sides of page to give the idea that at Co-Work, you'll be in a natural environment.
+
+Button to sign up/inquire about pricing shouldn't be too in your face. Community emphasized. Amenity icons clean and clear.
+
+Interface for reserving rooms (if this is included) clear, and easy to use. 
