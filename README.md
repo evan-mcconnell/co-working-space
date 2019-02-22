@@ -98,8 +98,16 @@ Interface for reserving rooms (if this is included) clear, and easy to use.
 
 ---
 
-##Sketches
+## Sketches
 
-###Home Page
-![First half of front page of Co-Work](img/Front-Page-1.jpg)
-![Second half of front page of Co-Work](img/Front-Page-2.jpg)
+### Landing Page Desktop
+![First half of landing page of Co-Work Desktop](img/Landing-Desktop-1.jpg)
+![Second half of landing page of Co-Work Desktop](img/Landing-Desktop-2.jpg)
+
+### Landing Page Tablet
+
+![First half of landing page of Co-Work Tablet](img/Landing-Tablet-1.jpg)
+![Second half of landing page of Co-Work Tablet](img/Landing-Tablet-2.jpg)
+
+### Landing Page Mobile
+![Landing page of Co-Work Phone](img/Landing-phone.jpg)
