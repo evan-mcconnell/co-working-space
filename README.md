@@ -111,3 +111,9 @@ Interface for reserving rooms (if this is included) clear, and easy to use.
 
 ### Landing Page Mobile
 ![Landing page of Co-Work Phone](img/Landing-Phone.jpg)
+
+### Contact Page Mobile
+![Contact page of Co-Work Phone](img/contact.jpg)
+
+### Amenities Page Mobile
+![Amenities page of Co-Work Phone](img/amenities.jpg)
