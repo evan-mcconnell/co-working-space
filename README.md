@@ -19,11 +19,11 @@ The space is a vibrant and funky co-working space that has been newly remodeled.
 
 ### User Stories
 ##### Tech Workers:
-*Goals of use:* Identify Co-Work as a comfortable, QUIET space to work. Identify amenities. Ability to easily book a conference room and see avialability. Identifying Thursday activities in advance.
+*Goals of use:* Identify Co-Work as a comfortable, QUIET space to work. Identify amenities. Ability to easily book a conference room and see availability. Identifying Thursday activities in advance.
 
 *Motivation:* Compare Co-Work with other co-working spaces, especially amenities.
 
-*Pain Points:* No ease of seeing conference room availability. Coffee running out. App not sleek enough to catch developer's attention (or having bugs). Co-working in communal spaces can be riddled with distractions, especially noise.
+*Pain Points:* No ease of seeing conference room availability, unreadable interface that sometimes selects wrong time (real we-work example). Coffee running out. App not sleek enough to catch developer's attention (or having bugs). Co-working in communal spaces can be riddled with distractions, especially noise.
 
 *Technical ability:* Proficient to Expert
 
@@ -94,4 +94,12 @@ Images provided should be large, maybe somewhat transparent with lettering on to
 
 Button to sign up/inquire about pricing shouldn't be too in your face. Community emphasized. Amenity icons clean and clear.
 
-Interface for reserving rooms (if this is included) clear, and easy to use. 
+Interface for reserving rooms (if this is included) clear, and easy to use.
+
+---
+
+##Sketches
+
+###Home Page
+![First half of front page of Co-Work](img/Front-Page-1.jpg)
+![Second half of front page of Co-Work](img/Front-Page-2.jpg)
