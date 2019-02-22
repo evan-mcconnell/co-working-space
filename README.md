@@ -65,5 +65,13 @@ The space is a vibrant and funky co-working space that has been newly remodeled.
 
 *Common Devices:* Smartphone most likely, not all with have computers with them. Easier to check a phone when working on a craft (saves bench space).
 
+##### Site managers and administrators:
+*Goals of use:* Ability to make changes to the site. Easily post/edit Thursday afternoon activities. Edit availability of private spaces. See metrics (e.g. How many artists? How often is conference room A used?)
 
-//
+*Motivation:* Showcase features of their co-working space and their personality. Allow their clients (i.e. workers) easy access to rooms/storage/etc.. Showcase upcoming fun activities (requires frequent editing).
+
+*Pain Points:* Editing of Thursday activities unintuitive. Metrics not clear.
+
+*Technical ability:* Beginner to Proficient, best to assume beginner when designing for this group
+
+*Common Devices:* Smartphone likely, especially for checking metrics on-the-go. Computer more likely for updating site. 
