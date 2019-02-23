@@ -1,6 +1,10 @@
 ## Co-working Space Design
 
 ---
+### Contributors
+ Kimberly McConnell
+
+---
 ### Description
 The space (company title Co-Work) is a vibrant and funky co-working space that has been newly remodeled. The general feel is high-end but welcoming, safe, and comfortable for a range of professionals. The space has multiple amenities including high-speed internet, communal and private offices, printing and faxing services, a coffee counter, and fun Thursday afternoon activities.
 
