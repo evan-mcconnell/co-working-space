@@ -2,7 +2,9 @@
 
 ---
 ### Description
-The space is a vibrant and funky co-working space that has been newly remodeled. The general feel is high-end but welcoming, safe, and comfortable for a range of professionals. The space has multiple amenities including high-speed internet, communal and private offices, printing and faxing services, a coffee counter, and fun Thursday afternoon activities.
+The space (company title Co-Work) is a vibrant and funky co-working space that has been newly remodeled. The general feel is high-end but welcoming, safe, and comfortable for a range of professionals. The space has multiple amenities including high-speed internet, communal and private offices, printing and faxing services, a coffee counter, and fun Thursday afternoon activities.
+
+The goal of this project is to create a web interface that embodies these ideals of Co-Work. The site must be easy to use and navigate for a diverse user group, and must show the personality of Co-Work. Careful thought was given to fonts and coloring in particular. The design was occasionally evaluated for simplicity. If an area was too busy, elements were removed to keep the design clean.
 
 ---
 
@@ -120,3 +122,59 @@ Interface for reserving rooms (if this is included) clear, and easy to use.
 
 ### Membership Page Mobile
 ![Membership options page of Co-Work Phone](img/membership.jpg)
+
+---
+
+## Wireframes
+
+### Landing Page Desktop
+![Desktop landing page of Co-Work wireframe](img/wireframe-landing-desktop.png)
+
+
+---
+
+## Technologies used
+- Sketch version 49.3 for wireframing
+- icons8.com for icons
+- google fonts
+- Pencil and paper
+
+---
+
+## Set-up Instructions
+
+1. If you don't have Sketch installed, download from sketch.com *NOTE: Sketch requires iOS to run. If you don't have iOS, refer to screneshots*
+2. Clone the github repository containing the project. Once downloaded, you can open the Sketch file in sketch.
+3. To see all fonts in this sketch project, download the Comfortaa font from Google Fonts. Only the regular and bold are used in this project, so you won't need to buy anything.
+
+---
+
+## Responsiveness
+This project is designed for desktop, tablet, and mobile view ports. Mobile views occasionally include carousels to display information in a smaller format.
+
+---
+
+## Development Roadmap
+
+As of 2/22/18, the wireframing is done only for the desktop view of the landing page. The finished site will include:
+- landing page (done for desktop)
+- contact page
+- amenities page
+- Membership page
+
+Ideas for future pages include but are not limited to:
+- Book a conference room page
+- Tour scheduling page
+- Events calendar
+- Reviews / testimonials page
+
+---
+## Licensing
+
+Copyright 2019 Kimberly McConnell
+
+Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
