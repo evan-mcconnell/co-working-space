@@ -1,6 +1,19 @@
 $mainfont: zapfino, cursive;
 
+* {
+  border-style: border-box;
+  margin: 0;
+  padding: 0;
+}
 
-.company-name {
-  font-family: $mainfont;
+header {
+  height: 20vw;
+  background-image: url("../assets/img/meeting-area.png");
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  .company-name {
+    font-family: $mainfont;
+    align-items: center;
+  }
 }
