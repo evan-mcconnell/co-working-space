@@ -142,8 +142,8 @@ h1 {
 //beginning of spaces section
 .space-types {
   background-color: $backgroundteal;
-  width: 80%;
-  margin: 0 10%;
+  width: 90%;
+  margin: 0 5%;
   .space-card {
     @include mQ(600px) {
 
@@ -156,30 +156,55 @@ h1 {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
+  width: 90%;
+  margin: 0 5%;
   .amen-item {
     flex-grow: 1;
     flex-shrink: 1;
-    flex-basis: 270px;
-    align-self: center;
-    width: 35vw;
-    margin: auto;
+    flex-basis: 210px;
+    max-width: 270px;
+    // align-self: center;
     height: 20vw;
     display: flex;
     flex-direction: row;
     text-align: center;
+    align-items: center;
+    margin: 1vw;
+    padding: 20px 0 0 0;
+    @include mQ(900px) {
+      flex-wrap: none;
+      width: 20vw;
+      margin: 20px;
+    }
   }
   img {
+    align-self: center;
     margin: 0 1vw;
-    width: 70px;
+    width: 60px;
     @include mQs(450px) {
-      width: 50px;
+      width: 45px;
+    }
+    @include mQ(750px) {
+      width: 80px;
     }
   }
   h3 {
-    font-size: 3.4vw;
+    font-size: 3.2vw;
+    @include mQ(750px) {
+      font-size: 2.8vw;
+    }
+    @include mQ(900px) {
+      font-size: 2.5vw;
+    }
   }
   p {
-    font-size: 2.8vw;
+    font-size: 2.5vw;
+    @include mQ(750px) {
+      font-size: 1.8vw;
+    }
+    @include mQ(900px) {
+      font-size: 1.5vw;
+    }
   }
 }
 //for full size
