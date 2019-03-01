@@ -178,6 +178,8 @@ h1 {
     width: 90%;
     margin: 0 5% 80px 5%;
     flex-direction: row;
+    justify-content: space-around;
+    align-items: flex-end;
   }
   .space {
     text-align: center;
@@ -193,17 +195,33 @@ h1 {
     @include mQs(550px) {
       width: 90%;
     }
+    @include mQ(900px) {
+      width: 25vw;
+      font-size: 2.3vw;
+      height: 200px;
+    }
+    @include mQ(1250px) {
+      font-size: 2vw;
+    }
+    p {
+      @include mQ(900px) {
+        margin: 5px;
+      }
+    }
   }
   .artist {
     margin-top: 20px;
     h2 {
       font-family: $mainfont;
       font-size: 4vw;
+      @include mQ(900px) {
+        margin-bottom: -30px;
+      }
     }
     .space-card {
       border: 4px solid #E97D9C;
       box-shadow: 2px 2px 10px $darkteal;
-      background-image: url("../assets/img/front-looking-out-artist.png");
+      background-image: linear-gradient(rgba(0, 0, 0, 0.30), rgba(0, 0, 0, 0.30)), url("../assets/img/front-looking-out-artist.png");
       background-size: cover;
       margin: 5px auto 20px auto;
     }
@@ -212,11 +230,15 @@ h1 {
     h2 {
       font-family: $busfont;
       font-size: 4.5vw;
+      @include mQ(900px) {
+        font-size: 3.5vw;
+        margin-bottom: 15px;
+      }
     }
     .space-card {
       border: 4px solid #3A638D;
       box-shadow: 2px 2px 10px $darkteal;
-      background-image: url("../assets/img/meeting-area-office.png");
+      background-image: linear-gradient(rgba(0, 0, 0, 0.30), rgba(0, 0, 0, 0.30)), url("../assets/img/meeting-area-office.png");
       background-size: cover;
     }
   }
@@ -224,11 +246,15 @@ h1 {
     h2 {
       font-family: $techfont;
       font-size: 4.5vw;
+      @include mQ(900px) {
+        font-size: 4vw;
+        margin-bottom: 15px;
+      }
     }
     .space-card {
       border: 4px solid #6F6F6F;
       box-shadow: 2px 2px 10px $darkteal;
-      background-image: url("../assets/img/tech.png");
+      background-image: linear-gradient(rgba(0, 0, 0, 0.30), rgba(0, 0, 0, 0.30)), url("../assets/img/tech.png");
       background-size: cover;
     }
   }
