@@ -1,5 +1,7 @@
 $mainfont: zapfino, cursive;
 $textfont: comfortaa, Helvetica, san-serfif;
+$busfont: Beirut, Helvetica, san-serfif;
+$techfont: GB18030 Bitmap, Times New Roman, serif;
 $grey: #d8d8d8;
 $lightteal: #C8F6EF;
 $teal: #8CBFB8;
@@ -169,11 +171,65 @@ h1 {
 //beginning of spaces section
 .space-types {
   background-color: $backgroundteal;
-  width: 90%;
-  margin: 0 5%;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 80px;
+  @include mQ(900px) {
+    width: 90%;
+    margin: 0 5% 80px 5%;
+    flex-direction: row;
+  }
+  .space {
+    text-align: center;
+    margin-bottom: 50px;
+  }
   .space-card {
-    @include mQ(600px) {
-
+    height: 100px;
+    width: 500px;
+    margin: 20px auto;
+    color: white;
+    font-size: 1.4em;
+    font-weight: bold;
+    @include mQs(550px) {
+      width: 90%;
+    }
+  }
+  .artist {
+    margin-top: 20px;
+    h2 {
+      font-family: $mainfont;
+      font-size: 4vw;
+    }
+    .space-card {
+      border: 4px solid #E97D9C;
+      box-shadow: 2px 2px 10px $darkteal;
+      background-image: url("../assets/img/front-looking-out-artist.png");
+      background-size: cover;
+      margin: 5px auto 20px auto;
+    }
+  }
+  .business {
+    h2 {
+      font-family: $busfont;
+      font-size: 4.5vw;
+    }
+    .space-card {
+      border: 4px solid #3A638D;
+      box-shadow: 2px 2px 10px $darkteal;
+      background-image: url("../assets/img/meeting-area-office.png");
+      background-size: cover;
+    }
+  }
+  .techie {
+    h2 {
+      font-family: $techfont;
+      font-size: 4.5vw;
+    }
+    .space-card {
+      border: 4px solid #6F6F6F;
+      box-shadow: 2px 2px 10px $darkteal;
+      background-image: url("../assets/img/tech.png");
+      background-size: cover;
     }
   }
 } //end of spaces section
@@ -332,7 +388,7 @@ footer {
       }
     }
   }
-}
+} //end of footer
 
 
 
@@ -342,11 +398,4 @@ footer {
 
 
 
-
-
-
-
-
-//for full size header
-
-// grid-template-rows: 30px 0.5fr 3fr 1.5fr 2fr;
+//end of spash page
