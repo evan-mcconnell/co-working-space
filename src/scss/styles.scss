@@ -223,19 +223,45 @@ footer {
     grid-column: 1 / 2;
     grid-row: 3 / 5;
     margin: 0 5%;
-    font-size: 3vw;
+    input {
+      font-size: 2.5vw;
+      border-radius: 2px;
+    }
   }
   .social-media {
     grid-column: 1 / 2;
-    grid-row: 6 / 7;
+    grid-row: 7 / 8;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-right: 8vw;
+    @include mQs(450px) {
+      grid-row: 6 / 7;
+      margin-right: 4vw;
+    }
+    img {
+      width: 3.5vw;
+      height: auto;
+      @include mQ(900px) {
+        width: 32px;
+      }
+    }
   }
   img {
-    grid-column: 2 / 3;
-    grid-row: 3 / 8;
-    height: 140px;
-    margin: auto 0;
+    grid-column: 3 / 4;
+    grid-row: 5 / 8;
+    height: 120px;
+    margin: auto;
     @include mQs(450px) {
-      height: 100px;
+      grid-row: 5 / 7;
+      height: 60px;
+    }
+    @include mQ(500px){
+      grid-column: 2 / 3;
+      grid-row: 3 / 7;
+    }
+    @include mQ(600px){
+      height: 200px;
     }
   }
   .contact {
@@ -243,6 +269,40 @@ footer {
     grid-row: 2 / 7;
     h3 {
       font-family: $mainfont;
+      display: none;
+      font-size: 3vw;
+      @include mQ(500px){
+        display: block;
+      }
+      @include mQ(900px){
+        font-size: 28px;
+      }
+    }
+    button {
+      background-color: $teal;
+      border: 1px solid rgba(black, .65);
+      border-radius: 2vw;
+      box-shadow: 3px 3px 10px $darkteal,
+        inset 3px 3px 10px $lightteal;
+      font-size: 2.5vw;
+      padding: 3px;
+      width: 28vw;
+      @include mQ(900px){
+        font-size: 24px;
+        width: 250px;
+      }
+    }
+    address {
+      margin-top: 4vw;
+      padding-left: 5px;
+      font-size: 0.8em;
+      border-left: 2px solid black;
+      @include mQ(600px){
+        font-size: 1em;
+      }
+      span {
+        font-weight: bold;
+      }
     }
   }
 }
