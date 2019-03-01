@@ -426,10 +426,61 @@ footer {
 //end of spash page
 
 //beginning of contact page
-.contact {
+.h2 {
+  a {
+    text-decoration: none;
+    color: white;
+    &:visited {
+      text-decoration: none;
+      color: white;
+    }
+  }
+}
+.contact-page {
+  margin-top: 50px;
+  background-color: $backgroundteal;
   display: grid;
   grid-template-columns: 1fr 4fr 1fr;
-  grid-template-rows: repeat(10, 30px);
+  grid-template-rows: repeat(13, 50px);
+  h1 {
+    grid-column: 2 / 3;
+    grid-row: 2 / 4;
+  }
+  input {
+    border-radius: 5px;
+  }
+  .name {
+    grid-column: 2 / 3;
+    grid-row: 5 / 6;
+  }
+  .email {
+    grid-column: 2 / 3;
+    grid-row: 6 / 7;
+  }
+  .message {
+    grid-column: 2 / 3;
+    grid-row: 8 / 11;
+    input {
+      line-height: 10;
+      width: 100%;
+    }
+  }
+  button {
+    grid-column: 2 / 3;
+    grid-row: 12 / 13;
+    font-size: 3vw;
+    padding: 1vw;
+    background-color: $teal;
+    border: 1px solid rgba(black, .65);
+    border-radius: 2vw;
+    box-shadow: 3px 3px 10px $darkteal,
+      inset 3px 3px 10px $lightteal;
+    width: 40vw;
+    &:hover {
+      background-color: $darkteal;
+      color: white;
+    }
+  }
 }
 
 
