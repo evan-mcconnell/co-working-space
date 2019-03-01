@@ -71,22 +71,49 @@ header {
     grid-column: 6 / 14;
     grid-row: 2 / 3;
     background: rgba(black, .7);
+    @include mQ(700px){
+      grid-column: 4 / 14;
+    }
     ul {
+      height: 100%;
       display: flex;
       flex-direction: row;
-      justify-content: space-between;
+      justify-content: space-around;
       font-size: 3vw;
       list-style: none;
       align-items: center;
-    }
-    li {
+      @include mQ(700px){
+        font-size: 2.3vw;
+      }
     }
     a {
       color: white;
       text-decoration: none;
+      &:hover{
+        color: $teal;
+      }
     }
-    .desktop-nav {
+  }
+  .mobile-nav{
+    display: show;
+    @include mQ(700px){
       display: none;
+    }
+  }
+  .desktop-nav {
+    display: none;
+    @include mQ(700px){
+      display: flex;
+    }
+    li:last-child {
+      padding: 5px;
+      border: 2px solid white;
+      &:hover {
+        background-color: white;
+      }
+      a:hover {
+        color: $teal;
+      }
     }
   }
 } //end of header
