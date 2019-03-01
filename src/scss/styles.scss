@@ -4,6 +4,13 @@ $grey: #d8d8d8;
 $lightteal: #C8F6EF;
 $teal: #8CBFB8;
 $darkteal: #3D6B66;
+$backgroundteal: rgba(#AEDDD7, .27);
+
+@mixin mQ($arg){
+  @media screen and (min-width: $arg){
+    @content;
+  }
+}
 
 * {
   border-style: border-box;
@@ -116,9 +123,33 @@ header {
   }
 } //end of banners
 
-//beginning of spaces section
-.spaces {
+//style both h1s
+h1 {
+  font-family: $mainfont;
+  text-decoration: underline;
+  text-decoration-style: double;
+  text-align: center;
+  font-size: 6vw;
+  padding: 1vw 0;
+}
 
+//beginning of spaces section
+.space-types {
+  background-color: $backgroundteal;
+  width: 80%;
+  margin: 0 10%;
+  .space-card {
+    @include mQ(600px) {
+
+    }
+  }
+} //end of spaces section
+
+.amenities-card {
+  background-color: $backgroundteal;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
 }
 //for full size
 
