@@ -137,6 +137,10 @@ header {
     box-shadow: 3px 3px 10px $darkteal,
       inset 3px 3px 10px $lightteal;
     width: 40vw;
+    &:hover {
+      background-color: $darkteal;
+      color: white;
+    }
   }
   p {
     font-size: 2.7vw;
@@ -396,6 +400,10 @@ footer {
       font-size: 2.5vw;
       padding: 3px;
       width: 28vw;
+      &:hover {
+        background-color: $darkteal;
+        color: white;
+      }
       @include mQ(900px){
         font-size: 24px;
         width: 250px;
@@ -415,13 +423,17 @@ footer {
     }
   }
 } //end of footer
-
-
-
-
-
-
-
-
-
 //end of spash page
+
+//beginning of contact page
+.contact {
+  display: grid;
+  grid-template-columns: 1fr 4fr 1fr;
+  grid-template-rows: repeat(10, 30px);
+}
+
+
+
+
+
+//end of contact page
