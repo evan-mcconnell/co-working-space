@@ -107,37 +107,39 @@ Interface for reserving rooms (if this is included) clear, and easy to use.
 ## Sketches
 
 ### Landing Page Desktop
-![First half of landing page of Co-Work Desktop](img/Landing-Desktop-1.jpg)
-![Second half of landing page of Co-Work Desktop](img/Landing-Desktop-2.jpg)
+![First half of landing page of Co-Work Desktop](src/assets/img/Landing-Desktop-1.jpg)
+![Second half of landing page of Co-Work Desktop](src/assets/img/Landing-Desktop-2.jpg)
 
 ### Landing Page Tablet
 
-![First half of landing page of Co-Work Tablet](img/Landing-Tablet-1.jpg)
-![Second half of landing page of Co-Work Tablet](img/Landing-Tablet-2.jpg)
+![First half of landing page of Co-Work Tablet](src/assets/img/Landing-Tablet-1.jpg)
+![Second half of landing page of Co-Work Tablet](src/assets/img/Landing-Tablet-2.jpg)
 
 ### Landing Page Mobile
-![Landing page of Co-Work Phone](img/Landing-Phone.jpg)
+![Landing page of Co-Work Phone](src/assets/img/Landing-Phone.jpg)
 
 ### Contact Page Mobile
-![Contact page of Co-Work Phone](img/contact.jpg)
+![Contact page of Co-Work Phone](src/assets/img/contact.jpg)
 
 ### Amenities Page Mobile
-![Amenities page of Co-Work Phone](img/amenities.jpg)
+![Amenities page of Co-Work Phone](src/assets/img/amenities.jpg)
 
 ### Membership Page Mobile
-![Membership options page of Co-Work Phone](img/membership.jpg)
+![Membership options page of Co-Work Phone](src/assets/img/membership.jpg)
 
 ---
 
 ## Wireframes
 
-### Landing Page Desktop
-![Desktop landing page of Co-Work wireframe](img/wireframe-landing-desktop.png)
+### Landing Page Desktop and Tablet
+![Desktop landing page of Co-Work wireframe](src/assets/img/wireframe.png)
 
 
 ---
 
 ## Technologies used
+- Webpack npm version 5.6.0
+- Various webpack plugins and loaders, as listed in the package.json file
 - Sketch version 49.3 for wireframing
 - icons8.com for icons
 - google fonts
@@ -147,23 +149,31 @@ Interface for reserving rooms (if this is included) clear, and easy to use.
 
 ## Set-up Instructions
 
-1. If you don't have Sketch installed, download from sketch.com *NOTE: Sketch requires iOS to run. If you don't have iOS, refer to screneshots*
-2. Clone the github repository containing the project. Once downloaded, you can open the Sketch file in sketch.
-3. To see all fonts in this sketch project, download the Comfortaa font from Google Fonts. Only the regular and bold are used in this project, so you won't need to buy anything.
+1. Clone the github repository containing the project.
+2. For viewing Sketch file: If you don't have Sketch installed, download from sketch.com *NOTE: Sketch requires iOS to run. If you don't have iOS, refer to screenshots*
+3. For viewing the actual site, you will need to install webpack modules necessary for running the project. If you do not already have npm installed on your machine, do this first. *Important: This project uses npm version 5.6.0*
+4. Open Terminal and type the following:
+  $ npm install
+  *this will download all dependencies listed in the package.json file*
+5. To open the page from a locally-hosted server, run:
+  $ npm run start
+  *this will open a page in your browser with the co-work main page. You can navigate to the contact page through the nav menu*
+6. To see all fonts in this project, download the Comfortaa font from Google Fonts. Only the regular and bold are used in this project, so you won't need to buy anything.
 
 ---
 
 ## Responsiveness
-This project is designed for desktop, tablet, and mobile view ports. Mobile views occasionally include carousels to display information in a smaller format.
+This project is designed for desktop, tablet, and mobile view ports. Mobile views *will (but not yet)* occasionally include carousels to display information in a smaller format.
 
 ---
 
 ## Development Roadmap
 
-As of 2/22/18, the wireframing is done only for the desktop view of the landing page. The finished site will include:
-- landing page (done for desktop)
-- contact page
-- amenities page
+As of 3/1/19, wireframing is complete for splash pages. Code is completed for the landing page, with responsive design in mind to smoothly change from mobile view to tablet to desktop view.
+A contact page is available, though is missing a lower section that would show a short bio of Co-Work employees.
+Future pages necessary to the functioning of the co-work site include:
+- finishing Contact page
+- Amenities page
 - Membership page
 
 Ideas for future pages include but are not limited to:
